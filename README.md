@@ -234,6 +234,7 @@ Blueprints are basically [ejs](https://github.com/mde/ejs) templates which are r
 
 ### Caveats
 
+
 #### FOUC (Flash of Unstyled Content)
 To make the hot reloading of CSS work, we are not extracting CSS in development. Ideally, during server rendering, we will be extracting CSS, and we will get a .css file, and we can use it in the html template. That's what we are doing in production.
 
